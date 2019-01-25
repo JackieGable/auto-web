@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+/* BROAD ELEMENT STYLES */
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    min-height: 100%;
+}
+
+/* CLASS & ID SPECIFIC STYLES */
+
+.body-wrapper {
+    min-height: calc(100vh - /*FOOTER HEIGHT IN PX (this probably requires some experimenting based on font and div size)*/);
+    display: block;
+}
