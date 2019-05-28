@@ -16,4 +16,5 @@ body, html {
 .body-wrapper {
     min-height: calc(100vh - /*FOOTER HEIGHT IN PX (this probably requires some experimenting based on font and div size)*/);
     display: block;
+    overflow: auto;
 }
